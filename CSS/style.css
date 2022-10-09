@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1338px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid tomato;
+}
+
+.header {
+  padding: 55px 0;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+  margin-left: 179px;
+}
+
+.logo-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-header {
+  margin-left: auto;
+  padding: 20px 109px;
+  border-radius: 10px;
+}
